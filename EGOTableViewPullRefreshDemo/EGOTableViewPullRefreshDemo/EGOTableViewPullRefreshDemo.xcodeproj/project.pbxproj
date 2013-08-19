@@ -1,0 +1,382 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D77E7417C1AF5400818C7B /* button_refresh@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D77E7317C1AF5400818C7B /* button_refresh@2x.png */; };
+		18D77E7617C1B11500818C7B /* navbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18D77E7517C1B11500818C7B /* navbar@2x.png */; };
+		C311998F15A5CE47006733DB /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = C311997F15A5CE47006733DB /* EGORefreshTableHeaderView.m */; };
+		C311999015A5CE47006733DB /* LoadMoreTableFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C311998115A5CE47006733DB /* LoadMoreTableFooterView.m */; };
+		C311999115A5CE47006733DB /* MessageInterceptor.m in Sources */ = {isa = PBXBuildFile; fileRef = C311998315A5CE47006733DB /* MessageInterceptor.m */; };
+		C311999215A5CE47006733DB /* PullTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C311998515A5CE47006733DB /* PullTableView.m */; };
+		C311999315A5CE47006733DB /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C311998715A5CE47006733DB /* blackArrow.png */; };
+		C311999415A5CE47006733DB /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C311998815A5CE47006733DB /* blackArrow@2x.png */; };
+		C311999515A5CE47006733DB /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C311998915A5CE47006733DB /* blueArrow.png */; };
+		C311999615A5CE47006733DB /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C311998A15A5CE47006733DB /* blueArrow@2x.png */; };
+		C311999715A5CE47006733DB /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C311998B15A5CE47006733DB /* grayArrow.png */; };
+		C311999815A5CE47006733DB /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C311998C15A5CE47006733DB /* grayArrow@2x.png */; };
+		C311999915A5CE47006733DB /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = C311998D15A5CE47006733DB /* whiteArrow.png */; };
+		C311999A15A5CE47006733DB /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C311998E15A5CE47006733DB /* whiteArrow@2x.png */; };
+		C3292AB4142776BF009428B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3292AB3142776BF009428B5 /* UIKit.framework */; };
+		C3292AB6142776BF009428B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3292AB5142776BF009428B5 /* Foundation.framework */; };
+		C3292AB8142776BF009428B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3292AB7142776BF009428B5 /* CoreGraphics.framework */; };
+		C3292ABE142776BF009428B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3292ABC142776BF009428B5 /* InfoPlist.strings */; };
+		C3292AC0142776BF009428B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3292ABF142776BF009428B5 /* main.m */; };
+		C3292AC4142776BF009428B5 /* EGOTableViewPullRefreshDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3292AC3142776BF009428B5 /* EGOTableViewPullRefreshDemoAppDelegate.m */; };
+		C3292AC7142776C0009428B5 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3292AC5142776C0009428B5 /* MainWindow.xib */; };
+		C3292ACA142776C0009428B5 /* EGOTableViewPullRefreshDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3292AC9142776C0009428B5 /* EGOTableViewPullRefreshDemoViewController.m */; };
+		C3292ACD142776C0009428B5 /* EGOTableViewPullRefreshDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3292ACB142776C0009428B5 /* EGOTableViewPullRefreshDemoViewController.xib */; };
+		C3292AD4142776D3009428B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3292AD3142776D3009428B5 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18D77E7317C1AF5400818C7B /* button_refresh@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "button_refresh@2x.png"; sourceTree = "<group>"; };
+		18D77E7517C1B11500818C7B /* navbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "navbar@2x.png"; sourceTree = "<group>"; };
+		C311997E15A5CE47006733DB /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		C311997F15A5CE47006733DB /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		C311998015A5CE47006733DB /* LoadMoreTableFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadMoreTableFooterView.h; sourceTree = "<group>"; };
+		C311998115A5CE47006733DB /* LoadMoreTableFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadMoreTableFooterView.m; sourceTree = "<group>"; };
+		C311998215A5CE47006733DB /* MessageInterceptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageInterceptor.h; sourceTree = "<group>"; };
+		C311998315A5CE47006733DB /* MessageInterceptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageInterceptor.m; sourceTree = "<group>"; };
+		C311998415A5CE47006733DB /* PullTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PullTableView.h; sourceTree = "<group>"; };
+		C311998515A5CE47006733DB /* PullTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PullTableView.m; sourceTree = "<group>"; };
+		C311998715A5CE47006733DB /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		C311998815A5CE47006733DB /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		C311998915A5CE47006733DB /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		C311998A15A5CE47006733DB /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		C311998B15A5CE47006733DB /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		C311998C15A5CE47006733DB /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		C311998D15A5CE47006733DB /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		C311998E15A5CE47006733DB /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		C3292AAF142776BF009428B5 /* EGOTableViewPullRefreshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGOTableViewPullRefreshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3292AB3142776BF009428B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3292AB5142776BF009428B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3292AB7142776BF009428B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3292ABB142776BF009428B5 /* EGOTableViewPullRefreshDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EGOTableViewPullRefreshDemo-Info.plist"; sourceTree = "<group>"; };
+		C3292ABD142776BF009428B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3292ABF142776BF009428B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3292AC1142776BF009428B5 /* EGOTableViewPullRefreshDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EGOTableViewPullRefreshDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C3292AC2142776BF009428B5 /* EGOTableViewPullRefreshDemoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGOTableViewPullRefreshDemoAppDelegate.h; sourceTree = "<group>"; };
+		C3292AC3142776BF009428B5 /* EGOTableViewPullRefreshDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGOTableViewPullRefreshDemoAppDelegate.m; sourceTree = "<group>"; };
+		C3292AC6142776C0009428B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		C3292AC8142776C0009428B5 /* EGOTableViewPullRefreshDemoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EGOTableViewPullRefreshDemoViewController.h; sourceTree = "<group>"; };
+		C3292AC9142776C0009428B5 /* EGOTableViewPullRefreshDemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGOTableViewPullRefreshDemoViewController.m; sourceTree = "<group>"; };
+		C3292ACC142776C0009428B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/EGOTableViewPullRefreshDemoViewController.xib; sourceTree = "<group>"; };
+		C3292AD3142776D3009428B5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3292AAC142776BF009428B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3292AD4142776D3009428B5 /* QuartzCore.framework in Frameworks */,
+				C3292AB4142776BF009428B5 /* UIKit.framework in Frameworks */,
+				C3292AB6142776BF009428B5 /* Foundation.framework in Frameworks */,
+				C3292AB8142776BF009428B5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C311997C15A5CE47006733DB /* EGOTableViewPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				C311997D15A5CE47006733DB /* Classes */,
+				C311998615A5CE47006733DB /* Resources */,
+			);
+			name = EGOTableViewPullRefresh;
+			path = ../../EGOTableViewPullRefresh;
+			sourceTree = "<group>";
+		};
+		C311997D15A5CE47006733DB /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C311997E15A5CE47006733DB /* EGORefreshTableHeaderView.h */,
+				C311997F15A5CE47006733DB /* EGORefreshTableHeaderView.m */,
+				C311998015A5CE47006733DB /* LoadMoreTableFooterView.h */,
+				C311998115A5CE47006733DB /* LoadMoreTableFooterView.m */,
+				C311998215A5CE47006733DB /* MessageInterceptor.h */,
+				C311998315A5CE47006733DB /* MessageInterceptor.m */,
+				C311998415A5CE47006733DB /* PullTableView.h */,
+				C311998515A5CE47006733DB /* PullTableView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C311998615A5CE47006733DB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C311998715A5CE47006733DB /* blackArrow.png */,
+				C311998815A5CE47006733DB /* blackArrow@2x.png */,
+				C311998915A5CE47006733DB /* blueArrow.png */,
+				C311998A15A5CE47006733DB /* blueArrow@2x.png */,
+				C311998B15A5CE47006733DB /* grayArrow.png */,
+				C311998C15A5CE47006733DB /* grayArrow@2x.png */,
+				C311998D15A5CE47006733DB /* whiteArrow.png */,
+				C311998E15A5CE47006733DB /* whiteArrow@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C3292AA4142776BF009428B5 = {
+			isa = PBXGroup;
+			children = (
+				18D77E7517C1B11500818C7B /* navbar@2x.png */,
+				18D77E7317C1AF5400818C7B /* button_refresh@2x.png */,
+				C3292AB9142776BF009428B5 /* EGOTableViewPullRefreshDemo */,
+				C3292AB2142776BF009428B5 /* Frameworks */,
+				C3292AB0142776BF009428B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3292AB0142776BF009428B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3292AAF142776BF009428B5 /* EGOTableViewPullRefreshDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3292AB2142776BF009428B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3292AD3142776D3009428B5 /* QuartzCore.framework */,
+				C3292AB3142776BF009428B5 /* UIKit.framework */,
+				C3292AB5142776BF009428B5 /* Foundation.framework */,
+				C3292AB7142776BF009428B5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3292AB9142776BF009428B5 /* EGOTableViewPullRefreshDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C3292AC2142776BF009428B5 /* EGOTableViewPullRefreshDemoAppDelegate.h */,
+				C3292AC3142776BF009428B5 /* EGOTableViewPullRefreshDemoAppDelegate.m */,
+				C3292AC5142776C0009428B5 /* MainWindow.xib */,
+				C3292AC8142776C0009428B5 /* EGOTableViewPullRefreshDemoViewController.h */,
+				C3292AC9142776C0009428B5 /* EGOTableViewPullRefreshDemoViewController.m */,
+				C3292ACB142776C0009428B5 /* EGOTableViewPullRefreshDemoViewController.xib */,
+				C3292ABA142776BF009428B5 /* Supporting Files */,
+			);
+			path = EGOTableViewPullRefreshDemo;
+			sourceTree = "<group>";
+		};
+		C3292ABA142776BF009428B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C311997C15A5CE47006733DB /* EGOTableViewPullRefresh */,
+				C3292ABB142776BF009428B5 /* EGOTableViewPullRefreshDemo-Info.plist */,
+				C3292ABC142776BF009428B5 /* InfoPlist.strings */,
+				C3292ABF142776BF009428B5 /* main.m */,
+				C3292AC1142776BF009428B5 /* EGOTableViewPullRefreshDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3292AAE142776BF009428B5 /* EGOTableViewPullRefreshDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3292AD0142776C0009428B5 /* Build configuration list for PBXNativeTarget "EGOTableViewPullRefreshDemo" */;
+			buildPhases = (
+				C3292AAB142776BF009428B5 /* Sources */,
+				C3292AAC142776BF009428B5 /* Frameworks */,
+				C3292AAD142776BF009428B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EGOTableViewPullRefreshDemo;
+			productName = EGOTableViewPullRefreshDemo;
+			productReference = C3292AAF142776BF009428B5 /* EGOTableViewPullRefreshDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3292AA6142776BF009428B5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C3292AA9142776BF009428B5 /* Build configuration list for PBXProject "EGOTableViewPullRefreshDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3292AA4142776BF009428B5;
+			productRefGroup = C3292AB0142776BF009428B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3292AAE142776BF009428B5 /* EGOTableViewPullRefreshDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3292AAD142776BF009428B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3292ABE142776BF009428B5 /* InfoPlist.strings in Resources */,
+				C3292AC7142776C0009428B5 /* MainWindow.xib in Resources */,
+				C3292ACD142776C0009428B5 /* EGOTableViewPullRefreshDemoViewController.xib in Resources */,
+				C311999315A5CE47006733DB /* blackArrow.png in Resources */,
+				C311999415A5CE47006733DB /* blackArrow@2x.png in Resources */,
+				C311999515A5CE47006733DB /* blueArrow.png in Resources */,
+				C311999615A5CE47006733DB /* blueArrow@2x.png in Resources */,
+				C311999715A5CE47006733DB /* grayArrow.png in Resources */,
+				C311999815A5CE47006733DB /* grayArrow@2x.png in Resources */,
+				C311999915A5CE47006733DB /* whiteArrow.png in Resources */,
+				C311999A15A5CE47006733DB /* whiteArrow@2x.png in Resources */,
+				18D77E7417C1AF5400818C7B /* button_refresh@2x.png in Resources */,
+				18D77E7617C1B11500818C7B /* navbar@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3292AAB142776BF009428B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3292AC0142776BF009428B5 /* main.m in Sources */,
+				C3292AC4142776BF009428B5 /* EGOTableViewPullRefreshDemoAppDelegate.m in Sources */,
+				C3292ACA142776C0009428B5 /* EGOTableViewPullRefreshDemoViewController.m in Sources */,
+				C311998F15A5CE47006733DB /* EGORefreshTableHeaderView.m in Sources */,
+				C311999015A5CE47006733DB /* LoadMoreTableFooterView.m in Sources */,
+				C311999115A5CE47006733DB /* MessageInterceptor.m in Sources */,
+				C311999215A5CE47006733DB /* PullTableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3292ABC142776BF009428B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3292ABD142776BF009428B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3292AC5142776C0009428B5 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3292AC6142776C0009428B5 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		C3292ACB142776C0009428B5 /* EGOTableViewPullRefreshDemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3292ACC142776C0009428B5 /* en */,
+			);
+			name = EGOTableViewPullRefreshDemoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3292ACE142776C0009428B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3292ACF142776C0009428B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3292AD1142776C0009428B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGOTableViewPullRefreshDemo/EGOTableViewPullRefreshDemo-Prefix.pch";
+				INFOPLIST_FILE = "EGOTableViewPullRefreshDemo/EGOTableViewPullRefreshDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3292AD2142776C0009428B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EGOTableViewPullRefreshDemo/EGOTableViewPullRefreshDemo-Prefix.pch";
+				INFOPLIST_FILE = "EGOTableViewPullRefreshDemo/EGOTableViewPullRefreshDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3292AA9142776BF009428B5 /* Build configuration list for PBXProject "EGOTableViewPullRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3292ACE142776C0009428B5 /* Debug */,
+				C3292ACF142776C0009428B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3292AD0142776C0009428B5 /* Build configuration list for PBXNativeTarget "EGOTableViewPullRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3292AD1142776C0009428B5 /* Debug */,
+				C3292AD2142776C0009428B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3292AA6142776BF009428B5 /* Project object */;
+}
